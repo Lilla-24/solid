@@ -2,12 +2,12 @@
 
 require "vendor/autoload.php";
 
-// $report = new \App\S\Report();
-// $template = new \App\S\HtmlTemplate();
-// $template2 = new \App\S\PhpTemplate();
-// //
-// $template->render($report->renderReport());
-// $template2->render($report->renderReport());
+$report = new \App\S\Report();
+$template = new \App\S\HtmlTemplate();
+$template2 = new \App\S\PhpTemplate();
+
+$template->render($report->renderReport());
+$template2->render($report->renderReport());
 
 
 // $report = new \App\O\Report();
