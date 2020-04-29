@@ -17,12 +17,12 @@ $repository->save();
 
 //változás!!!!!!!
 
-/*$rect = new \App\L\Square();
+$rect = new \App\L\Square();
 $rect->setWidth(5);
 $rect->setHeight(4);
 
 
-echo $rect->area();*/
+echo $rect->area();
 /*
 define("TEMPLATE", __DIR__);
 
