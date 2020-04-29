@@ -15,6 +15,8 @@ $repository = new \App\O\ReportRepository($report, new \App\O\FIleSave('file.txt
 $repository = new \App\O\ReportRepository($report, new \App\O\DBSave("localhost",'root','solid',''));
 $repository->save();
 
+//változás!!!!!!!
+
 /*$rect = new \App\L\Square();
 $rect->setWidth(5);
 $rect->setHeight(4);
