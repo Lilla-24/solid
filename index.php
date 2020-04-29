@@ -15,12 +15,14 @@ $repository = new \App\O\ReportRepository($report, new \App\O\FIleSave('file.txt
 $repository = new \App\O\ReportRepository($report, new \App\O\DBSave("localhost",'root','solid',''));
 $repository->save();
 
-/*$rect = new \App\L\Square();
+//változás!!!!!!!
+
+$rect = new \App\L\Square();
 $rect->setWidth(5);
 $rect->setHeight(4);
 
 
-echo $rect->area();*/
+echo $rect->area();
 /*
 define("TEMPLATE", __DIR__);
 
